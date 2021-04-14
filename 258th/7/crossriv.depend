@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1363497871 source:c:\documents and settings\박우현\my documents\dropbox\내소소\258th\7\crossriv.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+	<queue>
+

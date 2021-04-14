@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1373168001 source:c:\documents and settings\박우현\my documents\dropbox\내소소\267th\3\nearans\nearans.cpp
+	<stdio.h>
+	<stdlib.h>
+	<queue>
+	<algorithm>
+	<vector>
+

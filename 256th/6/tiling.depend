@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1362881967 source:c:\documents and settings\박우현\my documents\dropbox\내소소\256th\6\tiling.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+

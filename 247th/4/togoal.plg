@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: togoal - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\박우현\LOCALS~1\Temp\RSPE7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/togoal.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\박우현\바탕 화면\박우현\247th\4\togoal.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\박우현\LOCALS~1\Temp\RSPE7.tmp"" 
+Creating temporary file "C:\DOCUME~1\박우현\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/togoal.pdb" /debug /machine:I386 /out:"Debug/togoal.exe" /pdbtype:sept 
+".\Debug\togoal.obj"
+]
+Creating command line "link.exe @"C:\DOCUME~1\박우현\LOCALS~1\Temp\RSPE8.tmp""
+<h3>Output Window</h3>
+Compiling...
+togoal.cpp
+warning C4786: 'std::priority_queue<std::pair<int,std::pair<int,int> >,std::vector<std::pair<int,std::pair<int,int> >,std::allocator<std::pair<int,std::pair<int,int> > > >,std::greater<std::pair<int,std::pair<int,int> > > >::~priority_queue<std::pair<int,std::pair<int,int> >,std::vector<std::pair<int,std::pair<int,int> >,std::allocator<std::pair<int,std::pair<int,int> > > >,std::greater<std::pair<int,std::pair<int,int> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\queue(68) : warning C4786: 'std::priority_queue<std::pair<int,std::pair<int,int> >,std::vector<std::pair<int,std::pair<int,int> >,std::allocator<std::pair<int,std::pair<int,int> > > >,std::greater<std::pair<int,std::pair<int,int> > > >::priority_queue<std::pair<int,std::pair<int,int> >,std::vector<std::pair<int,std::pair<int,int> >,std::allocator<std::pair<int,std::pair<int,int> > > >,std::greater<std::pair<int,std::pair<int,int> > > >' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+togoal.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1374303449 source:c:\documents and settings\박우현\my documents\dropbox\내소소\5112\ferry\ferry.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

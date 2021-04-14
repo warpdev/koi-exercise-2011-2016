@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1376792818 source:c:\documents and settings\박우현\my documents\dropbox\내소소\4003\circuit\circuit.cpp
+	<stdio.h>
+	<algorithm>
+	<queue>
+	<stdlib.h>
+

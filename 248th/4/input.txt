@@ -1,0 +1,6 @@
+4
+Y U A F 15
+M U F A 15
+Y B A A 20
+M B F F 20
+A F

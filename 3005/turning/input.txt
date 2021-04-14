@@ -1,0 +1,6 @@
+5 360
+B B B B B
+B . . . B
+B B . B B
+. B . B .
+B B . B B

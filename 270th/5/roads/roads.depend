@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1374994635 source:c:\documents and settings\박우현\my documents\dropbox\내소소\270th\5\roads\roads.cpp
+	<stdio.h>
+	<algorithm>
+	<queue>
+	<vector>
+

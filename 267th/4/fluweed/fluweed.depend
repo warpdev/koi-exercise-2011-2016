@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1373169464 source:c:\documents and settings\박우현\my documents\dropbox\내소소\267th\4\fluweed\fluweed.cpp
+	<stdio.h>
+	<algorithm>
+	<queue>
+	<vector>
+

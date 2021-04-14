@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <vector>
+using namespace std;
+
+FILE *fp1,*fp2;
+
+vector<int> a;
+vector<int> b;
+
+void input(void)
+{
+    fscanf(fp1,"%s %s",&a,&b);
+    printf("%d %s\n",a[52],&a);
+}
+
+void process(void)
+{
+    int i,k;
+
+    if(a.size()==b.size())
+    {
+        k=a.size()-1;
+        for(i=0; i<=k; i++)
+        {
+            if(a[i]!=b[i])
+            {
+                if(a[i]-b[i]<0)
+                {
+                    fprintf(fp2,"NO BRAINS\n");
+                    return;
+                }
+                else
+                {
+                    fprintf(fp2,"MMM BRAINS\n");
+                    return;
+                }
+            }
+        }
+    }
+    else
+    {
+        if(a.size()<b.size())
+        {
+            fprintf(fp2,"NO BRAINS\n");
+            return;
+        }
+        else
+        {
+            fprintf(fp2,"MMM BRAINS\n");
+            return;
+        }
+    }
+}
+
+int main(void)
+{
+    int i;
+    fp1=fopen("input.txt","r");
+    fp2=fopen("output.txt","w");
+    for(i=1; i<=3; i++)
+    {
+        input();
+        process();
+        a.clear();
+        b.clear();
+    }
+    return 0;
+}
